@@ -109,6 +109,51 @@ body {
     margin-top: 11px;
     box-shadow: 0 2px black;
 }
+/*========----------MENU----------=========*/
+.menu{
+    max-width: 1280px;
+    overflow: hidden;
+    background: -moz-linear-gradient(90deg, #51C066 0, #309444 100%);/* FF3.6+ */
+    background: -webkit-gradient(linear,90deg,color-stop(0, 51C066), color-stop(100%, 309444));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(90deg, #51C066 0, #309444 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(90deg, #51C066 0, #309444 100%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #51C066 0, #309444 100%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(90deg, #51C066 0, #309444 100%);/* W3C */
+}
+.nav{
+    max-width: 988px;
+    max-height: 45px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_list{
+    display: inline-flex;
+    list-style: none;
+}
+.menu_list li{
+    width: 193px;
+    height: 45px;
+    border-left: 1px solid #247634;
+    border-right: 1px solid #57e974;
+    text-align: center;
+    line-height: 44px;
+}
+.menu_list a{
+    color: #ffffff;
+    text-decoration-line: none;
+}
+.menu_list li:hover{
+    background: -moz-linear-gradient(90deg, #46da62 0, #2EA345 100%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 90deg, color-stop(0, 46da62), color-stop(100%, 2EA345));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(90deg, #46da62 0, #2EA345 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(90deg, #46da62 0, #2EA345 100%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #46da62 0, #2EA345 100%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(90deg, #46da62 0, #2EA345 100%);/* W3C */
+}
+/*========----------menu end----------=========*/
 /*========----------header end----------=========*/
 /*===========АДАПТИВ=============*/
 .container-fluid {
