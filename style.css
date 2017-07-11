@@ -109,6 +109,7 @@ body {
     margin-top: 11px;
     box-shadow: 0 2px black;
 }
+/*========----------header end----------=========*/
 /*========----------MENU----------=========*/
 .menu{
     max-width: 1280px;
@@ -133,7 +134,7 @@ body {
     list-style: none;
 }
 .menu_list li{
-    width: 193px;
+    width: 195px;
     height: 45px;
     border-left: 1px solid #247634;
     border-right: 1px solid #57e974;
@@ -154,7 +155,197 @@ body {
     background: linear-gradient(90deg, #46da62 0, #2EA345 100%);/* W3C */
 }
 /*========----------menu end----------=========*/
-/*========----------header end----------=========*/
+/*========----------MAIN PART----------=========*/
+.main{
+    max-width: 988px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+/*========----------side bar----------=========*/
+aside{
+    margin-left: 0;
+}
+.side_bar{
+    max-width: 230px;
+    overflow: hidden;
+}
+.content{
+    max-width: 734px;
+    margin-right: 0;
+}
+.main ul{
+    text-decoration: none;
+}
+.side_bar a{
+    text-decoration-line: none;
+    font-size: 20px;
+    color: black;
+}
+.side_bar_item1, .side_bar_item2, .side_bar_item3, .side_bar_item4, .side_bar_item5, .side_bar_item6{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e7e7e7;
+    width: 230px;
+}
+.side_bar_item1:hover .side_bar_menu_down, .side_bar_item2:hover .side_bar_menu_down, .side_bar_item3:hover .side_bar_menu_down, .side_bar_item4:hover .side_bar_menu_down, .side_bar_item5:hover .side_bar_menu_down, .side_bar_item6:hover .side_bar_menu_down{
+     display: block;
+}
+.main ul li:first-child{
+    padding-top: 0;
+}
+.side_bar_menu_down li{
+    border: none;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.side_bar_menu_down li a{
+    color: red;
+    text-decoration-line: none;
+}
+.side_bar_menu_down{
+    display: none;
+    padding-top: 16px;
+    padding-left: 32px;
+    list-style-type: square;
+}
+/*========----------side bar end----------=========*/
+.content h1{
+    line-height: 22px;
+    padding-bottom: 21px;
+}
+.content_text{
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.news{
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+.news_container1, .news_container2, .news_container3{
+    max-width: 232px;
+}
+.news_container1{
+    margin-left: 0;
+}
+.news_container3{
+    margin-right: 0;
+}
+.text_first_line{
+    font-size: 14px;
+    padding-top: 14px;
+    padding-left: 7px;
+}
+.text_second_line{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-bottom: 11px;
+    color: #ffffff;
+}
+.news_container2 .text_second_line{
+    padding-bottom: 27px;
+}
+.text_first_line, .text_second_line{
+    background-color: #42b759;
+}
+/*========----------main part end----------=========*/
+/*========----------FOOTER----------=========*/
+/*========----------footer one----------=========*/
+.first_footer{
+    margin-top: 31px;
+    max-width: 1280px;
+    overflow: hidden;
+    background: -moz-linear-gradient(180deg, #FEC50D 20%, #F0B006 80%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 180deg, color-stop(20%, FEC50D), color-stop(80%, F0B006));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(180deg, #FEC50D 20%, #F0B006 80%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(180deg, #FEC50D 20%, #F0B006 80%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(180deg, #FEC50D 20%, #F0B006 80%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(180deg, #FEC50D 20%, #F0B006 80%);/* W3C */
+}
+.first_footer_container{
+    max-width: 988px;
+    overflow: hidden;
+    display: flex;
+}
+.first_footer_text{
+    margin-left: 0;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.footer_container_inside{
+    display: flex;
+    max-width: 268px;
+    margin-right: 49px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    justify-content: space-between;
+}
+.admin{
+    max-width: 80px;
+    margin-right: 8px;
+}
+.admin_numbers{
+    max-width: 176px;
+}
+.admin_first_line{
+    text-align: right;
+}
+.admin_second_line{
+    padding-top: 3px;
+}
+.admin_six_line{
+    padding-top: 3px;
+}
+/*========----------footer two----------=========*/
+.second_footer{
+    max-width: 1280px;
+    overflow: hidden;
+    background: -moz-linear-gradient(180deg, #45BB5C 20%, #3d9b50 80%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 180deg, color-stop(20%, 45BB5C), color-stop(80%, 3d9b50));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(180deg, #45BB5C 20%, #3d9b50 80%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(180deg, #45BB5C 20%, #3d9b50 80%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(180deg, #45BB5C 20%, #3d9b50 80%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(180deg, #45BB5C 20%, #3d9b50 80%);/* W3C */
+}
+.second_footer_container{
+    max-width: 988px;
+    overflow: hidden;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.second_footer_img1{
+    margin-left: 0;
+}
+.second_footer_img4{
+    margin-right: 0;
+}
+/*========----------footer three----------=========*/
+.third_footer{
+    max-width: 1280px;
+    overflow: hidden;
+}
+.third_footer_container{
+    max-width: 988px;
+    overflow: hidden;
+    display: flex;
+}
+.third_footer_text{
+    margin-left: 0;
+    font-size: 14px;
+    padding-top: 23px;
+    padding-bottom: 21px;
+}
+/*========----------footer end----------=========*/
 /*===========АДАПТИВ=============*/
 .container-fluid {
     width: 100%;
@@ -164,61 +355,6 @@ body {
     content: "";
     display: block;
     clear: both;
-}
-
-.col-1 {
-    float: left;
-    width: 8.33333333%;
-}
-
-.col-2 {
-    float: left;
-    width: 16.66666666%;
-}
-
-.col-3 {
-    float: left;
-    width: 25%;
-}
-
-.col-4 {
-    float: left;
-    width: 33.33333333%;
-}
-
-.col-5 {
-    float: left;
-    width: 41.66666666%;
-}
-
-.col-6 {
-    float: left;
-    width: 50%;
-}
-
-.col-7 {
-    float: left;
-    width: 58.33333333%;
-}
-
-.col-8 {
-    float: left;
-    width: 66.66666666%;
-}
-
-.col-9 {
-    float: left;
-    width: 75%;
-}
-
-.col-10 {
-    float: left;
-    width: 83.33333333%;
-}
-
-.col-11 {
-    float: left;
-    width: 91.66666666%;
 }
 
 .col-12 {
